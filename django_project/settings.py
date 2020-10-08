@@ -96,18 +96,18 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 #         'HOST': 'localhost',
 #         'PORT': '5432',
 #     }
-# }
+# # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dj_draft',
-        'USER': 'postgres',
-        'PASSWORD': '091297',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'dj_draft',
+#         'USER': 'postgres',
+#         'PASSWORD': '091297',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 
 
 # Password validation
