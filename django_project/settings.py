@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # if debug is True else false
 DEBUG = (os.environ.get("DEBUG_VALUE") == 'True')
 
-ALLOWED_HOSTS = ['django-draft.herokuapp.com']
+ALLOWED_HOSTS = ['www.aschonnproject.com','django-draft.herokuapp.com']
 
 
 # Application definition
