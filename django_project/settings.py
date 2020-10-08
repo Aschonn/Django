@@ -26,8 +26,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 # if debug is True else false
 DEBUG = (os.environ.get("DEBUG_VALUE") == 'True')
-ALLOWED_HOSTS = ['www.aschonnproject.com','django-draft.herokuapp.com']
-
+#ALLOWED_HOSTS = ['www.aschonnproject.com','django-draft.herokuapp.com']
+ALLOWED_HOSTS=[]
 
 # Application definition
 # Always add new apps that you are creating otherwise it wont be able to see models and 
