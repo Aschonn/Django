@@ -34,3 +34,5 @@ virtualenv==20.0.17
 Werkzeug==0.14.1
 whitenoise==5.2.0
 django_heroku
+django-crispy-forms
+idna==2.5
