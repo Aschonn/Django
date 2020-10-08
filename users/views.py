@@ -68,7 +68,7 @@ def contact(request):
                 ['aschonn.trinity@gmail.com'], # To email
             )
 
-            messages.success(request, f'Your Message Has Been Sent! Look Forward To Talking To You Soon, {username.up}')
+            messages.success(request, f'Your Message Has Been Sent! Look Forward To Talking To You Soon, {username}')
             return redirect('contact')
     else:
         form = UserFeedbackForm(instance=request.user)

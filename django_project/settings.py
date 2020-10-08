@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
-import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,9 +25,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 # if debug is True else false
-DEBUG = (os.environ.get("DEBUG_VALUE") == 'True')
-
-ALLOWED_HOSTS = ['www.aschonnproject.com','django-draft.herokuapp.com']
+DEBUG = True
+#DEBUG = (os.environ.get("DEBUG_VALUE") == 'True')
+ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = ['www.aschonnproject.com','django-draft.herokuapp.com']
 
 
 # Application definition
@@ -89,6 +89,17 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 # }
 #postgres
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'dj_draft',
+#         'USER': 'postgres',
+#         'PASSWORD': '091297',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -99,7 +110,6 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-
 
 
 # Password validation
@@ -162,5 +172,3 @@ EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_PASS")
 
 
 # APPEND_SLASH=False
-
-django_heroku.settings(locals())
