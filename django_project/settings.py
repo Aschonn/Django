@@ -150,6 +150,9 @@ USE_TZ = True
 #heroku likes the word staticfiles
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 
 #full path to directory where we want to store media files
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
