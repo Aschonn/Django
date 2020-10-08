@@ -25,7 +25,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 #SECRET_KEY = '0ud3(8ha7ib#3crgj&-1a6(r$p&%a7017t4+7puuo9l)&ae2s0'
 SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+# if debug is True else false
+DEBUG = (os.environ.get("DEBUG_VALUE") == 'True')
 
 ALLOWED_HOSTS = ['django-draft.herokuapp.com']
 
