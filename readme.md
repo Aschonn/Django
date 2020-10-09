@@ -3,7 +3,7 @@
 <a href='https://django-draft-blog.herokuapp.com'>Django Project Link</a>
 
 # Motivation:
-To compare different frameworks and to see which would give me the best result. I figured the best way to test this out would be to create identical Applications using those both frameworks. I currently have finish: 
+To compare different frameworks and to see which would give me the best result. I figured the best way to test this out would be to create identical Applications using those both frameworks.
 
 # Dependencies:
 - I used python 3.8.2 but anything over 3.7 will work.
