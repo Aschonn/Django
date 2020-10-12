@@ -1,5 +1,7 @@
 # Django Project
 
+<br>
+
 <a href='https://django-draft-blog.herokuapp.com'>Django Project Link</a>
 
 <br>
@@ -16,11 +18,11 @@ To compare different frameworks and to see which would give me the best result. 
 <br>
 
 # Required Knowledge:
-- Flask (Framework) 
+- Django (Framework) 
 - Python (Language)
 - SQLAlchemy (translater)
-- Jinja (HTML helper)
-- Linode (Server)
+- Gunicorn (Web Server)
+- Heroku (Server)
 - Postgresql (Database)  
 
 <br>
