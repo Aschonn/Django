@@ -2,7 +2,7 @@
 
 <br>
 
-<a href='https://django-draft-blog.herokuapp.com'>Django Project Link</a>
+<a href='https://www.aschonnproject.com'>Django Project Link</a>
 
 <br>
 
